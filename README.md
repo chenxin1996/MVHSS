@@ -1,7 +1,7 @@
 # MVHSS
-The code of MVHSS scheme in the Verifiable Homomorphic Secret Sharing for Low Degree Polynomials paper
+The code of MVHSS in the paper.
 ## IDE
-In the coding, we chose CLion as IDE. So, you need to run the code in the CLion.
+In the coding, we chose CLion as IDE. Therefore, if you use CLion as IDE it will help you deploy this project mor conveniently.
 ## Dependencies
 ### Install m4
     wget http://mirrors.kernel.org/gnu/m4/m4-1.4.13.tar.gz
@@ -56,12 +56,3 @@ In the coding, we chose CLion as IDE. So, you need to run the code in the CLion.
     ./configure --prefix=/usr/local
     sudo make
     sudo make install
-### Install RELIC
-https://github.com/relic-toolkit/relic/wiki/Building
-
-    tar -xzvf relic-relic-toolkit-0.4.0.tar.gz
-    mkdir -p relic-target
-    sudo cmake ./relic-relic-toolkit-0.4.0
-    sudo make
-    sudo make install
-
